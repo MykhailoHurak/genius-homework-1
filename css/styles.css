@@ -91,6 +91,10 @@ ul {
 
 /* Section --------------------------------- */
 
+.section {
+    padding-bottom: 90px;
+}
+
 .section__title {
     font-family: 'Play', sans-serif;
     font-size: 64px;
@@ -101,6 +105,9 @@ ul {
 
 .section__title--color {
     color: var(--color-primary-blue);
+}
+
+.section__title--capitalize {
     text-transform: capitalize;
 }
 
@@ -137,6 +144,11 @@ ul {
 }
 
 /* Hero --------------------------------- */
+
+.hero {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 
 .hero__before-title {
     line-height: 1.17;
@@ -276,6 +288,10 @@ ul {
 }
 
 /* Footer --------------------------------- */
+
+.footer {
+    background-color: var(--color-secondary-darkblue);
+}
 
 .footer__logo {
     font-family: Play;
