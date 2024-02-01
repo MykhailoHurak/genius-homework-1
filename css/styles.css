@@ -1,0 +1,221 @@
+/* Fonts --------------------------------- */
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+         url('../fonts/roboto-v30-latin-regular.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'),
+         url('../fonts/roboto-v30-latin-500.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+         url('../fonts/roboto-v30-latin-700.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-latin-900.woff2') format('woff2'),
+         url('../fonts/roboto-v30-latin-900.ttf') format('truetype');
+  }
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2'),
+         url('../fonts/play-v19-latin-regular.ttf') format('truetype');
+  }
+ 
+  @font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2'),
+         url('../fonts/play-v19-latin-700.ttf') format('truetype');
+  }
+
+/* Variables --------------------------------- */
+
+:root {
+    --color-primary-white: #fff;
+    --color-primary-blue: #2B7FFF;;
+    --color-primary-darkblue: #011C44;
+
+    --color-secondary-darkgrey: #4A4A4A;
+    --color-secondary-lightgrey: #747272;
+    --color-secondary-darkblue: #011F4A;
+    --color-secondary-yellow: #FFD02B;
+}
+
+/* Base --------------------------------- */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-primary-darkblue);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* Section --------------------------------- */
+
+.section__title {
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: 0em;
+}
+
+.section__title--color {
+    color: var(--color-primary-blue);
+    text-transform: capitalize;
+}
+
+/* Header --------------------------------- */
+.header {
+    background-color: #c8c8c8;
+}
+
+.header__logo {
+    font-family: Play;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0em;
+    color: var(--color-primary-blue);
+    text-decoration: none;
+}
+
+.header__nav-list {
+    font-size: 18px;
+}
+
+/* .header__nav-item {} */
+
+.header__nav-link {
+    text-decoration: none;
+    color: var(--color-primary-darkblue);
+}
+
+.header__nav-link:hover {
+    color: var(--color-primary-blue);
+}
+
+.header__contacts-icon {
+    fill: var(--color-primary-darkblue);
+}
+
+.header__contacts-icon:hover {
+    fill: var(--color-primary-blue)
+}
+
+/* Hero --------------------------------- */
+
+.hero__before-title {
+    line-height: 1.17;
+    letter-spacing: 0em;
+}
+
+.hero__title {
+    font-family: Play;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.81;
+    letter-spacing: 0em;
+    color: var(--color-primary-blue);
+}
+
+.hero__button {
+    padding: 16px 32px 16px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid var(--color-primary-blue);
+    border-radius: 32px;
+    background-color: var(--color-primary-blue);
+    color: var(--color-primary-white);
+    cursor: pointer;
+}
+
+.hero__button:hover {
+    background-color: transparent;
+    color: var(--color-primary-darkblue); 
+}
+
+.hero__after-button {
+    font-size: 12px;
+    line-height: 1.5;
+    color: var(--color-secondary-darkgrey);
+}
+
+/* About --------------------------------- */
+
+.about {
+    background-color: #c8c8c8;
+}
+
+.about__text {
+    font-size: 22px;
+    line-height: 1.73;
+    letter-spacing: 0em;    
+}
+
+.about__text--font {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Advantages --------------------------------- */
+
+.advantages__list {
+    line-height: 1.33;
+}
+
+.advantages__icon {
+    fill: var(--color-primary-blue);
+}
+
+/* Procedures --------------------------------- */
+.procedures {
+    background-color: #c8c8c8;
+}
+
+/* Contacts --------------------------------- */
+
+
+/* Footer --------------------------------- */
+.footer {
+    background-color: #c8c8c8;
+}
