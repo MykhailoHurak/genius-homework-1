@@ -91,6 +91,10 @@ ul {
 
 /* Section --------------------------------- */
 
+.section-border-delete {
+    border: 1px solid red;
+}
+
 .section {
     padding-bottom: 90px;
 }
